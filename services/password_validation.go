@@ -11,6 +11,7 @@ const special =  `!@#$%^&*()-+\/{}[]`
  
 type Validation struct {}
 
+// PasswordValid recebe o validationMessege e realiza a validalidação das regras passadas e retorna o resultado da validação no models.PVerify
 func (v Validation) PasswordValid(vPassword *models.ValidationMessege) models.PVerify {
 	result := models.PVerify{}
 	for _ , rule := range vPassword.Rules {

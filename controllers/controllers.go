@@ -7,11 +7,12 @@ import (
 	"valid-password/services"
 )
 
-func CheckPasswords(w http.ResponseWriter, r *http.Request) { // funcionalalidade de expor todos os dados na tela
-	dados := &models.ValidationMessege{}
+// CheckPasswords quando chegar uma requisição lá no nosso arquivo de “routes.go” vai ser o responsável, quem vai controlar essa página vai ser essa nossa função.
+func CheckPasswords(w http.ResponseWriter, r *http.Request) {
+	dados := &models.ValidationMessege{} 
 	dados.Rules = []models.ValidationRule{}
 	json.NewDecoder(r.Body).Decode(dados)
 	validador := services.Validation{}
 
-	json.NewEncoder(w).Encode(validador.PasswordValid(dados)) // encodar dos meus modelos, todos itens
+	json.NewEncoder(w).Encode(validador.PasswordValid(dados)) 
 }

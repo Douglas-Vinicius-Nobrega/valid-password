@@ -8,8 +8,9 @@ import (
 	"github.com/gorilla/mux"
 )
 
-func HandleRequest() { // requisições
-	r := mux.NewRouter() // nosso mapeamento de rotas
-	r.HandleFunc("/verify", controllers.CheckPasswords).Methods(http.MethodPost) // nossa rota,  usando método POST 
+// HandleRequest ela vai lidar com as requisições
+func HandleRequest() {
+	r := mux.NewRouter()
+	r.HandleFunc("/verify", controllers.CheckPasswords).Methods(http.MethodPost)
 	log.Fatal(http.ListenAndServe(":8080", r)) 
 }
