@@ -2,9 +2,9 @@
 
 # 🚀 Começando
 
-# Nesse passo, utilizaremos as plataformas Postman e Docker, certifique-se de ter elas instalados na sua máquina.
+## Nesse passo, utilizaremos as plataformas Postman e Docker, certifique-se de ter elas instalados na sua máquina.
 
-# Caso não tenha o docker, leia até o final que faremos em duas etapas.
+## Caso não tenha o docker, leia até o final que faremos em duas etapas.
 
 ## Passos
 
@@ -56,12 +56,12 @@
 
 ## Caso não utilizar ou não conheça a plataforma Docker, faremos em outro formato para testa nossa API
 
-# Certifique-se de ter o Golang, instalado na sua máquina, para fazermos esse passo.
+## Certifique-se de ter o Golang, instalado na sua máquina, para fazermos esse passo.
 
-# OBS : No passo 2, em vez de utilizamos o docker-compose up utilizaremos:
+## OBS : No passo 2, em vez de utilizamos o docker-compose up utilizaremos:
 
 2 - go run main.go
 
-# OBS : Assim, subiremos nosso sevidor local e podemos entra no Postman e fazeremos nossos teste.
+## OBS : Assim, subiremos nosso sevidor local e podemos entra no Postman e fazeremos nossos teste.
 
-# O retorno esperado é o mesmo do passo 7.
+## O retorno esperado é o mesmo do passo 7.
