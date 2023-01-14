@@ -6,9 +6,7 @@
 
 ## Caso não tenha o docker, leia até o final que faremos em duas etapas.
 
-## Passos
-
-## OBS: utilizaremos uma plataforma de API chama da Postman, para testar nosso projeto
+## Primeiros Passos
 
 1 - Com o projeto aberto no VSCode, vamos abrir o terminal integrado "CTRL + J"
 
@@ -58,9 +56,9 @@
 
 ## Certifique-se de ter o Golang, instalado na sua máquina, para fazermos esse passo.
 
-## OBS : No passo 2, em vez de utilizamos o docker-compose up utilizaremos:
+## OBS : No passo 2, em vez de utilizamos o comando $ docker-compose up, utilizaremos:
 
-2 - go run main.go
+2 - $ go run main.go
 
 ## OBS : Assim, subiremos nosso sevidor local e podemos entra no Postman e fazeremos nossos teste.
 
