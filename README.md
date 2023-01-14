@@ -1,6 +1,6 @@
 # Valid-Password
 
-## 🚀 Começando
+# 🚀 Começando
 
 # Nesse passo, utilizaremos as plataformas Postman e Docker, certifique-se de ter elas instalados na sua máquina.
 
